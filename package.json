@@ -1,0 +1,20 @@
+{
+  "author": "hongshuai.yuan",
+  "name": "mqtt-socketIo-php",
+  "description": " 实现了php和nodejs通过mqtt和socket.io实现的消息通讯",
+  "version": "0.0.1",
+  "repository": {
+    "url": ""
+  },
+  "engines": {
+    "node": "v0.10.22"
+  },
+  "main" : "./lib/mqttSocketIoPhp.js",
+  "bin"  : "./bin/mqttSocketIoPhp.js",
+  "scripts": {
+    "test": "node ./test/mqttSocketIoPhp.js"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {}
+}
